@@ -1,0 +1,9 @@
+// PX to EMs
+@function em( $target, $context: 16 ) {
+	@return ( $target / $context ) * 1em;
+}
+
+// Columns
+@function column( $number, $total: 12 ) {
+	@return ( 100% * $number ) / $total;
+}

@@ -1,0 +1,14 @@
+// Sprite
+.s {
+	@include ir;
+	display: block;
+	background-repeat: no-repeat;
+	
+	.svg & {
+		//Add background-image: url( assets/images/sprite.svg );
+	}
+	.no-svg &,
+	.no-js & {
+		//Add background-image: url( assets/images/sprite.png );
+	}
+}

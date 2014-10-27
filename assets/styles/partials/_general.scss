@@ -1,0 +1,70 @@
+*,
+:before,
+:after {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: helvetica, sans-serif;
+	color: $color_black;
+}
+
+
+// Links
+a {
+	color: $color_black;
+}
+a:hover {
+	color: $color_gray;
+}
+
+
+// Images
+img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
+
+
+// Typography
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+	clear: both;
+}
+
+p {
+	margin: 0 0 1.45em;
+}
+
+blockquote {
+	margin: 0 1.45em;
+}
+
+address {
+	margin: 0 0 1.45em;
+}
+
+
+// Alignment
+.aligncenter {
+	display: block;
+	clear: both;
+	margin: 0 auto;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.45em;
+}
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.45em;
+}

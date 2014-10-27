@@ -1,0 +1,11 @@
+// WRAPPER
+.wrapper {
+	@include clearfix; // _mixins.scss
+	max-width: $page_width;
+	margin: 0 auto;
+	padding: 0 $padding;
+	
+	@include breakpoint( mouse ) { // _mixins.scss
+		padding: 0 ( 2 * $padding );
+	}
+}

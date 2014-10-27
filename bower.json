@@ -1,0 +1,19 @@
+{
+	"name": "",
+	"version": "1.0",
+	"authors": [
+		"Guilherme Barchik <guilherme.barchik@casa.ag>"
+	],
+	"homepage": "",
+	"ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "normalize-scss": "~3.0.2",
+    "modernizr": "~3.0"
+  }
+}
