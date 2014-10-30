@@ -29,12 +29,14 @@ module.exports = function(grunt) {
 		// Browser Sync
 		browserSync: {
 			bsFiles: {
-				src: 'style.css'
+				src: 'assets/styles/**/**.css'
 			},
 			options: {
 				watchTask: true,
 				notify: false,
-				//proxy: "localhost.site.com"
+				server: {
+					baseDir: './'
+				}
 			}
 		},
 
